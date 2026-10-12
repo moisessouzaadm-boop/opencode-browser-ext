@@ -5,7 +5,10 @@
   "license": "MIT",
   "type": "module",
   "bin": {
-    "opencode-browser-setup": "./bin/setup.js"
+    "opencode-browser-setup": "bin/setup.js"
   },
-  "files": ["bin/", "README.md"]
+  "files": [
+    "bin/",
+    "README.md"
+  ]
 }
