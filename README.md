@@ -38,7 +38,7 @@ Auto-update without any store: see `docs/updates.md` (managed policy + GitHub Pa
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE). No outside collaborators: see [CONTRIBUTING](CONTRIBUTING.md) (issues and PRs only, everything triaged before merge).
 
 ---
 
