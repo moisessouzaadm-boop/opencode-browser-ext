@@ -1,5 +1,7 @@
 # OpenCode Browser
 
+> **Not affiliated with the OpenCode team.** This is an independent community project, not built by or associated with [OpenCode](https://opencode.ai) (`anomalyco/opencode`).
+
 Chrome MV3 extension that bridges **OpenCode** to your real browser tabs through [`@browsermcp/mcp`](https://www.npmjs.com/package/@browsermcp/mcp).
 
 How it works: the MCP server listens on `ws://127.0.0.1:9009` → this extension connects as a client → commands (`browser_snapshot`, `browser_click`, `browser_type`, …) run in the active tab via content scripts → results return as `messageResponse`.
