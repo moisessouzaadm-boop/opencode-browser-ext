@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenCode Browser — automação do navegador no OpenCode</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 48px auto; padding: 0 20px; color: #111827; line-height: 1.6; }
+  h1 { font-size: 28px; } code { background: #f3f4f6; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+  pre { background: #111827; color: #e5e7eb; padding: 16px; border-radius: 8px; overflow-x: auto; font-size: 13px; }
+  a.btn { display: inline-block; margin: 8px 8px 8px 0; padding: 10px 20px; background: #3b82f6; color: #fff; text-decoration: none; border-radius: 8px; }
+  a.btn.ghost { background: #e5e7eb; color: #111827; }
+</style>
+</head>
+<body>
+<h1>OpenCode Browser</h1>
+<p>Extensão Chrome (MV3) que liga o <strong>OpenCode</strong> às suas abas reais: snapshot, clique, digitação, screenshot e mais — via <code>@browsermcp/mcp</code>. Grátis, open-source (MIT), sem coleta de dados.</p>
+<p>
+  <a class="btn" href="https://github.com/moisessouzaadm-boop/opencode-browser-ext">GitHub</a>
+  <a class="btn ghost" href="https://github.com/moisessouzaadm-boop/opencode-browser-ext/releases">Download (.zip/.crx)</a>
+</p>
+<h2>Instalar em 3 passos</h2>
+<pre>1. chrome://extensions → modo desenvolvedor → Carregar sem compactação → extension/dist/
+2. Adicione o bloco "browsermcp" no seu opencode.jsonc (ver README)
+3. Foque uma aba http(s), clique no ícone, chame browser_snapshot</pre>
+<h2>Auto-update sem loja</h2>
+<p>Via policy gerenciada + GitHub Pages. Guia completo em <a href="https://github.com/moisessouzaadm-boop/opencode-browser-ext/blob/main/docs/updates.md">docs/updates.md</a>.</p>
+<p><a href="https://github.com/moisessouzaadm-boop/opencode-browser-ext/blob/main/PRIVACY.md">Privacidade: coletamos nada.</a></p>
+</body>
+</html>

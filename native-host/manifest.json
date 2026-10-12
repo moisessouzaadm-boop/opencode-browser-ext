@@ -1,0 +1,9 @@
+{
+  "name": "com.moises.opencode.browser",
+  "description": "OpenCode Browser Native Host",
+  "path": "/home/moises/projetos/opencode-browser-ext/native-host/dist/index.js",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://jdhneapghmpchafkhpdiacndfgnehfpn/"
+  ]
+}

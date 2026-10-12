@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>OpenCode Browser — Opções</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 560px; margin: 32px auto; padding: 0 16px; color: #111827; }
+    h1 { font-size: 20px; }
+    p { font-size: 13px; color: #4b5563; }
+    label { display: block; font-size: 13px; font-weight: 600; margin: 16px 0 4px; }
+    input { width: 100%; padding: 8px; font-size: 13px; border: 1px solid #d1d5db; border-radius: 6px; box-sizing: border-box; }
+    button { margin-top: 12px; padding: 8px 16px; background: #3b82f6; color: #fff; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; }
+    button:hover { background: #2563eb; }
+    #status { margin-top: 8px; font-size: 13px; color: #059669; }
+  </style>
+</head>
+<body>
+  <h1>OpenCode Browser — Opções</h1>
+  <p>A extensão conecta como cliente WebSocket nos servidores MCP locais. O boot e o keepalive usam as 4 primeiras portas; o botão "Testar Conexão" varre a lista completa.</p>
+  <label for="ports">Portas MCP (separadas por vírgula, máx. 12)</label>
+  <input id="ports" type="text" spellcheck="false" placeholder="9009, 9010, 9011, 9012">
+  <button id="save">Salvar</button>
+  <div id="status"></div>
+  <script src="options.js"></script>
+</body>
+</html>

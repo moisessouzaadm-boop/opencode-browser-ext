@@ -1,0 +1,11 @@
+{
+  "name": "opencode-browser-setup",
+  "version": "1.0.0",
+  "description": "One-command setup helper for OpenCode Browser (extension + browsermcp MCP)",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "opencode-browser-setup": "./bin/setup.js"
+  },
+  "files": ["bin/", "README.md"]
+}
