@@ -11,14 +11,14 @@ How it works: the MCP server listens on `ws://127.0.0.1:9009` → this extension
 ## Install (3 steps, free, no Chrome Web Store)
 
 1. **Extension**: `chrome://extensions` → Developer mode → *Load unpacked* → `extension/dist/`
-2. **MCP**: add to your `opencode.jsonc` (`mcp` section):
+2. **MCP**: add to your `opencode.jsonc` (`mcp.servers` section, OpenCode V2 format):
    ```jsonc
    "browsermcp": {
      "type": "local",
-     "command": ["node", "<HOME>/.config/opencode/browsermcp/node_modules/@browsermcp/mcp/dist/index.js"],
-     "enabled": true
+     "command": ["node", "<HOME>/.config/opencode/browsermcp/node_modules/@browsermcp/mcp/dist/index.js"]
    }
    ```
+   Windows install: see `docs/INSTALACAO-WINDOWS.md`.
    Pin `@browsermcp/mcp@0.1.3` and keep the `server.close` patch (see `docs/`).
 3. **Use**: focus any `http(s)` tab, click the extension icon, then call `browser_snapshot` from OpenCode.
 
